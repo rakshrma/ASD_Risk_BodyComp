@@ -1,0 +1,13 @@
+system,label,number
+jabba,left_psoas,2
+jabba,right_psoas,3
+jabba,l_quadratus_lumborum,4
+jabba,r_quadratus_lumborum,5
+jabba,l_erector_spinae,6
+jabba,r_erector_spinae,7
+jabba,l_gluteus_medius,8
+jabba,r_gluteus_medius,9
+jabba,l_rectus_abdominis,10
+jabba,r_rectus_abdominis,11
+jabba,l_lateral_abdominals,12
+jabba,r_lateral_abdominals,13

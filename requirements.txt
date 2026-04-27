@@ -1,0 +1,19 @@
+# ────────────────────────────────────────────────────────────────────────────
+# Runtime dependencies for the ASD Risk Body Composition pipeline.
+#
+#   pip install -r requirements.txt
+#
+# External binaries (must be on PATH; install separately — see docs/INSTALLATION.md):
+#   - gdcmconv     (script 01)   brew install gdcm   /   apt-get install libgdcm-tools
+#   - dcm2niix     (script 02)   https://github.com/rordenlab/dcm2niix
+# ────────────────────────────────────────────────────────────────────────────
+
+numpy>=1.23
+pandas>=1.5
+nibabel>=5.0
+pydicom>=2.4
+matplotlib>=3.7
+TotalSegmentator>=2.0          # also installs the TotalSegmentator CLI (and torch)
+
+# ── dev / tests ─────────────────────────────────────────────────────────────
+pytest>=7.0

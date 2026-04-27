@@ -1,0 +1,5 @@
+system,label,number
+totalsegmentator,fat_subcutaneous,1
+totalsegmentator,fat_visceral,2
+totalsegmentator,muscle,3
+totalsegmentator,imat,4

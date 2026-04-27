@@ -1,0 +1,33 @@
+# ── data folders (only the .gitkeep markers and READMEs are tracked) ──────
+data/input/dicom/*
+data/input/dicom_decompressed/
+data/input/nifti/*
+data/output/*
+!data/input/dicom/.gitkeep
+!data/input/nifti/.gitkeep
+!data/output/.gitkeep
+!data/sample/
+
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
+
+# ── pytest / coverage ─────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── editor / OS ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
